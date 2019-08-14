@@ -35,5 +35,5 @@ The argument passed to `draw` can either be a single file or a directory contain
 
 If you load a directory with up to 9 files, you can switch between them using the number keys 1-9 on your keyboard.
 
-
+The following website goes into major detail about the implementation and results of the rasterize: https://kevin-arias.github.io/Rasterizer/
 
