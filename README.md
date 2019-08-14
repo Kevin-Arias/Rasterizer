@@ -1,32 +1,8 @@
-# Project 1: Rasterizer
+# Rasterizer
 
 <img src="https://cs184.eecs.berkeley.edu/cs184_sp16_content/article_images/3_1.jpg" width="800px" align="middle"/>
 
-In this assignment you will implement a simple rasterizer, including features like supersampling, hierarchical transforms, and texture mapping with antialiasing. At the end, you'll have a functional vector graphics renderer that can take in modified SVG (Scalable Vector Graphics) files, which are widely used on the internet.
-
-## Logistics
-
-### Deadline
-* Project 1 is due Tuesday, February 12th at 11:59pm. Both your code and write-up need to be turned in for your submission to be complete; assignments which are turned in after 11:59pm are a full day late -- there are no late minutes or late hours.
-
-
-### Getting started
-
-First, accept the assignment in your CS184 website profile, following the instructions from GitHub Classroom. Then, clone the generated repo. Make sure you clone _your repo_, and not the class skeleton.
-
-    $ git clone --recurse-submodule <YOUR_PRIVATE_REPO>
-    
-Also ensure GitHub Pages is enabled for your assignment.
-
-Please consult this article for more information on [how to build and submit assignments for CS 184](https://cs184.eecs.berkeley.edu/sp19/article/8/building-and-submitting-cs184-as).
-
-As you go through the assignment, [refer to the write-up guidelines and deliverables section below](#rubric). **It is recommended that you accumulate deliverables into sections in your webpage write-up as you work through the project.** You may find it helpful to skim this section before beginning your work.
-
-*Note: Do not squander all your hard work on this assignment by converting your png files into jpg or any other format!* Leave the screenshots as they are saved by the `'S'` key in the GUI, otherwise you will introduce artifacts that will ruin your rasterization efforts.
-
-Finally, you may find the following resources helpful: 
-**[C++ Guide](https://cs184.eecs.berkeley.edu/sp19/article/11/c-basics)** for some quick tips and tricks on getting started with C++. A slightly more detailed C++ guide can be [found here](https://github.com/Bryce-Summers/Writings/blob/master/Programming%20Guides/C_plus_plus_guide.pdf).
-**[Images as Data](https://cs184.eecs.berkeley.edu/sp19/article/7/images-as-data)** on how images and colors are often represented in code.
+I have implemented a rasterizer, which includes features like supersampling, hierarchical transforms, and texture mapping with antialiasing. This rasterizer is a functional vector graphics renderer that can take in modified SVG (Scalable Vector Graphics) files, which are widely used on the internet.
 
 <img src="https://cs184.eecs.berkeley.edu/cs184_sp16_content/article_images/3_7.jpg" width="800px" align="middle"/>
 
